@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt - Märtas krog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Märtas krog</h1>
+        <nav>
+          <a href="index.html">Hem</a>
+          <a href="meny.html">Meny</a>
+          <a href="Räknare.html">Räknare</a>
+        </nav>
+      </header>
+      <h1>Meny Räknare</h1>
+      <div id="raknare">
+        <input type="number" id="tal1" placeholder="Första talet">
+        <select id="operation">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input type="number" id="tal2" placeholder="Andra talet">
+        <button type="button" id="berakna">Beräkna</button>
+        <div id="resultat"></div>
+      </div>
+      <script src="index.js"></script>
+</body>

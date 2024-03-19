@@ -1,0 +1,137 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #333;
+}
+
+/* Header */
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  float: right;
+}
+
+header nav a {
+  margin-right: 10px;
+}
+
+/* Main */
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Hero */
+
+.hero {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-top: 0;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.hero a {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/* Om oss */
+
+.om-oss {
+  text-align: center;
+}
+
+.om-oss h3 {
+  margin-top: 0;
+}
+
+/* Meny */
+
+.meny h2 {
+  margin-top: 0;
+}
+
+.meny ul {
+  list-style: none;
+  padding: 0;
+}
+
+.meny li {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Kontakt */
+
+.Räknare h2 {
+  margin-top: 0;
+}
+
+.Räknare form {
+  margin: 20px auto;
+  width: 500px;
+}
+
+.Räknare label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Räknare input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.Räknare button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
